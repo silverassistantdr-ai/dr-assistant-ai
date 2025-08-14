@@ -12,8 +12,8 @@ from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
 
 # --- Load Telegram & OpenAI config ---
-# TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")  # set in Deta/Render/Railway
-TELEGRAM_TOKEN = os.environ.get("8405096630:AAExiHPGvr_N5-V42w5BaEi8jUoDEPKusqo")  # set in Deta/Render/Railway
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")  # set in Deta/Render/Railway
+
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 openai.api_key = OPENAI_API_KEY
